@@ -22,7 +22,7 @@ function App() {
     <Routes>
     
        <Route path="/" element={<HomePage/>} />
-       <Route path='/create' element={<Create/>} />
+       <Route path='/create' element={<Create toggle={toggle} />} />
     </Routes>
     </div>
   )
